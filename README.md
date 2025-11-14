@@ -1,1 +1,3 @@
 # Deeplearning_homework4
+
+This repository contains PyTorch implementations of three Generative Adversarial Network architectures (DCGAN, WGAN, and ACGAN) trained on the CIFAR-10 dataset for CpSc 8430 Deep Learning Homework 4. Each model was trained from scratch for 40-50 epochs to generate 64×64 synthetic images, with WGAN demonstrating superior training stability through Wasserstein distance optimization and ACGAN providing class-conditional generation capabilities. All implementations include comprehensive training visualizations, loss tracking, and real vs. generated image comparisons to evaluate the quality and diversity of synthesized outputs.
